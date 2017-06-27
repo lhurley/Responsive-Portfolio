@@ -75,10 +75,10 @@ h3 {
   font-size: 36px;
   font-weight: 700;
   line-height: 90px;
-  color: #5900ff;
+  color: #f9fcfc;
   text-align: center;
   text-decoration: none;
-  background: none;
+  background: #5900ff;
 }
 
 nav {
