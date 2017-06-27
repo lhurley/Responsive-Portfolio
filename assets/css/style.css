@@ -48,7 +48,7 @@ h2,
 h3 {
   font-family: 'Merriweather', serif;
   font-weight: 700;
-  color: #5900ff;
+  color: #000bff;
 }
 
 h1 {
@@ -72,8 +72,8 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #a1a7a8;
-  background: #f9fcfc;
-  border-bottom: 1px solid #5900ff;
+  background: #fffcdb;
+  border-bottom: 1px solid #000bff;
 }
 
 #logo {
@@ -84,10 +84,10 @@ h3 {
   font-size: 36px;
   font-weight: 700;
   line-height: 90px;
-  color: #f9fcfc;
+  color: #fffcdb;
   text-align: center;
   text-decoration: none;
-  background: #5900ff;
+  background: #000bff;
 }
 
 nav {
@@ -104,7 +104,7 @@ nav a {
   line-height: 18px;
   color: #a1a7a8;
   text-decoration: none;
-  border-left: 1px solid #5900ff;
+  border-left: 1px solid #000bff;
 }
 
 nav a:first-child {
@@ -112,7 +112,7 @@ nav a:first-child {
 }
 
 nav a:hover { 
-    color: #5900ff;
+    color: #000bff;
     font-style: bold;
 }
 
@@ -129,8 +129,8 @@ footer {
   color: #a1a7a8;
   color: #a1a7a8;
   text-align: center;
-  background: #f9fcfc;
-  border-bottom: 35px solid #5900ff;
+  background: #fffcdb;
+  border-top: 1px solid #000bff;
 }
 
 .footer,
@@ -183,7 +183,7 @@ h3,
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
-  border: 1px solid #5900ff;
+  border: 1px solid #000bff;
 }
 
 /* portfolio page */
@@ -214,10 +214,12 @@ h3,
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
-  color: #f9fcfc;
+  color: #000bff;
   text-align: center;
-  background: #5900ff;
+  background: #fffcdb;
   border-bottom: 0;
+  font-size: 14pt;
+  font-style: italic;
 }
 
 .auth-image {
@@ -259,7 +261,7 @@ textarea {
   height: 35px;
   padding: 0 10px;
   font-size: 14px;
-  border: 1px solid #5900ff;
+  border: 1px solid #000bff;
   color: #a1a7a8;
 }
 
@@ -273,6 +275,26 @@ input[type=submit] {
   font-size: 18px;
   color: white;
   cursor: pointer;
-  background: #5900ff;
+  background: #000bff;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: lightgreen;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    body {
+        background-color: lightgreen;
+    }
 }
