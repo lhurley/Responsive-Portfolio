@@ -1,3 +1,12 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+    margin-bottom: -50px;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -88,6 +97,8 @@ nav {
 
 nav a {
   display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
@@ -98,6 +109,15 @@ nav a {
 
 nav a:first-child {
   border-left: 0 none;
+}
+
+nav a:hover { 
+    color: #5900ff;
+    font-style: bold;
+}
+
+nav a:focus {
+    text-decoration: line-through;
 }
 
 /* footer */
@@ -112,6 +132,12 @@ footer {
   background: #f9fcfc;
   border-bottom: 35px solid #5900ff;
 }
+
+.footer,
+.push {
+  height: 50px;
+}
+
 
 /* sidebar */
 
