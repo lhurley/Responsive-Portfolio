@@ -2,9 +2,10 @@ html, body {
   height: 100%;
   margin: 0;
 }
+
 .wrapper {
   min-height: 100%;
-    margin-bottom: -50px;
+  margin-bottom: -50px;
 }
 
 body {
@@ -72,7 +73,7 @@ h3 {
   margin: 0 0 30px;
   overflow: auto;
   color: #a1a7a8;
-  background: #fffcdb;
+  background: #ffffdc;
   border-bottom: 1px solid #000bff;
 }
 
@@ -81,10 +82,10 @@ h3 {
   width: 250px;
   height: 90px;
   font-family: 'Merriweather', serif;
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 90px;
-  color: #fffcdb;
+  color: #ffffdc;
   text-align: center;
   text-decoration: none;
   background: #000bff;
@@ -129,7 +130,7 @@ footer {
   color: #a1a7a8;
   color: #a1a7a8;
   text-align: center;
-  background: #fffcdb;
+  background: #ffffdc;
   border-top: 1px solid #000bff;
 }
 
@@ -227,13 +228,7 @@ h3,
   height: 240px;
   width: auto;
   margin-top: 10px;
-}
-.auth-image2 {
-  float: left;
-  height: 240px;
-  width: auto;
-  margin-top: 10px;
-  margin-right: 25px;
+  margin-right: 30px;
 }
 
 /* contact page */
@@ -279,22 +274,185 @@ input[type=submit] {
   border: 0 none;
 }
 
-@media screen and (max-width: 980px) {
-    body {
-        background-color: lightgreen;
-    }
+
+html {
+    width:100%;
+    height: 100%;
 }
 
 
-@media screen and (max-width: 768px) {
-    body {
-        background-color: lightgreen;
-    }
-}
+/* SIZING!!! */
 
 
-@media screen and (max-width: 640px) {
-    body {
-        background-color: lightgreen;
-    }
-}
+    /* desktop */
+     @media screen and (max-width: 980px) {
+
+
+        #logo {
+          margin-left: 90px;
+        }
+
+        nav {
+          margin-right: 90px;
+        }
+
+        #main-container {
+          padding-top: 130px;
+          padding-left: 90px;
+        }
+
+
+        .main-section {
+          max-width: 463px;
+        }
+
+        .auth-image {
+          margin-bottom: 25px;
+        }
+
+        .sidebar {
+          margin-right: 90px;
+        }
+
+        .work {
+          position: relative;
+          float: left;
+          width: 400px;
+          overflow: auto;
+          margin-bottom: 0px;
+        }
+
+        .work img {
+          width: 400px;
+          height: 400px;
+        }
+      }
+
+
+    /* tablet */
+      @media screen and (max-width: 768px) {
+
+        #logo {
+          margin-left: 40px;
+        }
+
+        #masthead {
+          height: 90px;
+        }
+
+        nav {
+          margin-right: 40px;
+        }
+
+        #main-container {
+          padding-top: 130px;
+          padding-left: 40px;
+        }
+
+        .main-section {
+          max-width: 685px;
+        }
+
+        .auth-image {
+          margin-bottom: 8px;
+        }
+
+        .sidebar {
+          margin-right: 40px;
+          float: left;
+          max-width: 685px;
+          margin-bottom: 40px;
+        }
+
+        .work {
+          position: relative;
+          float: left;
+          width: 290px;
+          margin: 20px 0 25px;
+          margin-bottom: 0px;
+          overflow: auto;
+        }
+
+        .work:nth-child(even) {
+          margin-right: 40px;
+        }
+
+        .work img {
+          width: 290px;
+          height: 290px;
+          border: 0 none;
+          opacity: 0.8;
+        }
+
+      }
+
+    /* phone */
+      @media screen and (max-width: 640px) {
+
+        #logo {
+          position: static;
+          z-index: 99;
+          width: 100%;
+          margin: 0 0 30px;
+          overflow: auto;
+          text-align: center;
+        }
+
+        nav {
+          position: fixed;
+          text-align: center;
+          z-index: 99;
+          width: 100%;
+          margin: 0 0 30px;
+          overflow: auto;
+          color: #a1a7a8;
+          background: #ffffdc;
+          border-bottom: 1px solid #000bff;
+        }
+
+        nav a {
+          margin-left: 0px;
+          padding-left: 80px;
+          padding-right: 80px;
+        }
+
+        #main-container {
+          padding-top: 130px;
+          padding-left: 20px;
+        }
+
+        .main-section {
+          max-width: 600px;
+          margin-top: -17px;
+        }
+
+        .auth-image {
+          margin-bottom: 28px;
+          height: auto;
+          width: 540px;
+        }
+
+        .sidebar {
+          margin-right: 40px;
+          float: left;
+          max-width: 600px;
+          margin-bottom: 40px;
+        }
+
+        .work {
+          position: relative;
+          float: left;
+          width: 538px;
+          overflow: auto;
+          margin-bottom: 0px;
+        }
+
+        .work img {
+          width: 538px;
+          height: 538px;
+        }
+
+      }
+
+
+      
